@@ -61,10 +61,14 @@ celsiusButton.addEventListener('click', () => {
   celsiusButton.style.backgroundColor = '#ceebe1d4';
   isTempInCelsius = true;
   fahrenheitButton.style.backgroundColor = '';
+  const input = document.querySelector('input').value;
+  getweather(input);
 });
 
 fahrenheitButton.addEventListener('click', () => {
   fahrenheitButton.style.backgroundColor = '#ceebe1d4';
   isTempInCelsius = false;
   celsiusButton.style.backgroundColor = '';
+  const input = document.querySelector('input').value;
+  getweather(input);
 });

@@ -1,0 +1,84 @@
+html{
+    font-size: 62.3%;
+}
+body{
+    background: url(carte.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3, label, button{
+    font-size: 2rem;
+}
+
+.title{
+    font-size: 6rem;
+    margin: 10px 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-color: #2b6954d4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    background-color: #5aad91d4;
+}
+
+.header, .content{
+    width: 49em;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0px 0px 8px #375f3a;
+}
+
+.header, .content, button, input{
+    border-radius: 10px;
+    border: none;
+}
+
+label, input, button{
+    margin: 0px 5px;
+}
+input, button{
+    height: 23px;
+}
+
+button{
+    width: 86px;
+}
+
+.convertTemp{
+    background-color: #ffffff1c;
+    width: 38px;
+}
+
+.convertTemp:hover{
+    background-color: #ffffff63;
+}
+
+.content > div{
+    display: flex;
+}
+
+.content > div > div{
+    width: 40px;
+    height: 40px;
+    background: url(clear-sky.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+
+}
